@@ -1,0 +1,119 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;          
+  flex-direction: column; 
+  min-height: 100vh;      
+}
+
+main {
+  flex: 1; 
+}
+
+* {
+  margin: 0;            
+  padding: 0;           
+  box-sizing: border-box; 
+}
+
+header {
+    background-color: rgb(136, 203, 238); 
+    font-family: monospace;
+    font-size: xx-large;
+}
+
+main {
+    height:px; background-color: rgb(243, 243, 243);
+}
+
+footer {
+    height : 70px; background-color: rgb(188, 173, 255);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+    margin: 12px; padding: 12px; background: gray; border: 2px solid black
+}
+
+.flex-center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 10vh;
+}
+
+.stretch {
+    display:flex;
+    height: 10vh;
+}
+
+.evenspacing {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      height: 10 vh;
+      width: 1440px;
+}
+
+.border{
+    border: red solid 3px; /* For debugging */
+}
+
+.button {
+    color: blue;
+    background-color: azure;
+    padding: 12px;
+    border-radius: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-family: 'Franklin Gothic Medium'
+}
+
+.button:hover {
+    color: rgb(79, 187, 255);
+}
+
+#smaller-head {
+    font-family: 'Franklin Gothic Medium';
+    text-decoration: underline;
+}
+
+img {
+    max-width: 400px;
+    max-height: 400px;
+    min-height: 400px;
+    min-width: 400px;
+    margin: 10px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.content-style {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 10 vh;
+      width: 1440px;
+}
+
+.flex-center2 {
+      display: flex;
+      
+      align-items: center;
+      height: 4vh;
+}
